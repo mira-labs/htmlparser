@@ -53,7 +53,6 @@ for f in file_list:
                 if len(year_components) == 2:
                     year_to = year_components[1]
             except IndexError:
-
                 engine_size = ""
                 door_no = ""
                 year_from = ""
