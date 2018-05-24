@@ -52,6 +52,8 @@ for f in file_list:
                     year_from = ""
                 if len(year_components) == 2:
                     year_to = year_components[1]
+                if len(year_to) < 4 or year_to.isdigit() is False:
+                    year_to = ""
             except IndexError:
                 engine_size = ""
                 door_no = ""
